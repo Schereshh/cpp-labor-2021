@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/functions.cpp" "C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab01/CMakeFiles/lab1.dir/functions.cpp.obj"
   "C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/main.cpp" "C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab01/CMakeFiles/lab1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

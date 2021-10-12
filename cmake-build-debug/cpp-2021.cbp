@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/functions.cpp">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/functions.h">
+			<Option target="lab1"/>
+		</Unit>
 		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/main.cpp">
 			<Option target="lab1"/>
 		</Unit>
