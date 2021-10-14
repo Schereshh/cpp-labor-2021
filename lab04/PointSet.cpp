@@ -9,7 +9,10 @@ void PointSet::computeDistances() {
 }
 
 PointSet::PointSet(int n) {
+    this->n = n;
+    for(int i=0;i<n;i++){
 
+    }
 }
 
 double PointSet::maxDistance() const {
