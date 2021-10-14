@@ -5,7 +5,7 @@
 		<Option title="lab1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab01\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab01\;CMake Files\lab02\;CMake Files\lab03\;CMake Files\lab04\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab01"/>
@@ -74,6 +74,15 @@
 		</Unit>
 		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab01\"/>
+		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab02\"/>
+		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab03\"/>
+		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab04\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -39,6 +39,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
   "../lab01/CMakeLists.txt"
+  "../lab02/CMakeLists.txt"
+  "../lab03/CMakeLists.txt"
+  "../lab04/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -51,9 +54,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab01/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab02/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab03/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab04/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lab01/CMakeFiles/lab1.dir/DependInfo.cmake"
+  "lab02/CMakeFiles/lab2.dir/DependInfo.cmake"
+  "lab03/CMakeFiles/lab3.dir/DependInfo.cmake"
+  "lab04/CMakeFiles/lab4.dir/DependInfo.cmake"
   )

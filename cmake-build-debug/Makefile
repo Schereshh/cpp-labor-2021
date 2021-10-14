@@ -142,6 +142,45 @@ lab1/fast:
 	$(MAKE) $(MAKESILENT) -f lab01\CMakeFiles\lab1.dir\build.make lab01/CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
+#=============================================================================
+# Target rules for targets named lab2
+
+# Build rule for target.
+lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2
+.PHONY : lab2
+
+# fast build rule for target.
+lab2/fast:
+	$(MAKE) $(MAKESILENT) -f lab02\CMakeFiles\lab2.dir\build.make lab02/CMakeFiles/lab2.dir/build
+.PHONY : lab2/fast
+
+#=============================================================================
+# Target rules for targets named lab3
+
+# Build rule for target.
+lab3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3
+.PHONY : lab3
+
+# fast build rule for target.
+lab3/fast:
+	$(MAKE) $(MAKESILENT) -f lab03\CMakeFiles\lab3.dir\build.make lab03/CMakeFiles/lab3.dir/build
+.PHONY : lab3/fast
+
+#=============================================================================
+# Target rules for targets named lab4
+
+# Build rule for target.
+lab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
+.PHONY : lab4
+
+# fast build rule for target.
+lab4/fast:
+	$(MAKE) $(MAKESILENT) -f lab04\CMakeFiles\lab4.dir\build.make lab04/CMakeFiles/lab4.dir/build
+.PHONY : lab4/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -151,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab1
+	@echo ... lab2
+	@echo ... lab3
+	@echo ... lab4
 .PHONY : help
 
 
