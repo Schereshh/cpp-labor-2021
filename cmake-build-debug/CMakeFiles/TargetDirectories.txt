@@ -12,3 +12,9 @@ C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/
 C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab04/CMakeFiles/edit_cache.dir
 C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab04/CMakeFiles/lab4.dir
 C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab04/CMakeFiles/rebuild_cache.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab05/CMakeFiles/lab5.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab05/CMakeFiles/edit_cache.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab05/CMakeFiles/rebuild_cache.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab06/CMakeFiles/lab6.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab06/CMakeFiles/edit_cache.dir
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab06/CMakeFiles/rebuild_cache.dir
