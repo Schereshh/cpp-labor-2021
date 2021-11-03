@@ -386,6 +386,12 @@
 		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab07/Account.h">
 			<Option target="lab7"/>
 		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab07/Customer.cpp">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab07/Customer.h">
+			<Option target="lab7"/>
+		</Unit>
 		<Unit filename="C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab07/main.cpp">
 			<Option target="lab7"/>
 		</Unit>

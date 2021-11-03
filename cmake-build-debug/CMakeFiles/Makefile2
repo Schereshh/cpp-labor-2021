@@ -399,12 +399,12 @@ lab06/CMakeFiles/lab6.dir/clean:
 lab07/CMakeFiles/lab7.dir/all:
 	$(MAKE) $(MAKESILENT) -f lab07\CMakeFiles\lab7.dir\build.make lab07/CMakeFiles/lab7.dir/depend
 	$(MAKE) $(MAKESILENT) -f lab07\CMakeFiles\lab7.dir\build.make lab07/CMakeFiles/lab7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target lab7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21 "Built target lab7"
 .PHONY : lab07/CMakeFiles/lab7.dir/all
 
 # Build rule for subdir invocation for target.
 lab07/CMakeFiles/lab7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab07/CMakeFiles/lab7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles 0
 .PHONY : lab07/CMakeFiles/lab7.dir/rule

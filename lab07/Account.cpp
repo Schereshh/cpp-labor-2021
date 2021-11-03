@@ -4,9 +4,12 @@
 
 #include "Account.h"
 
+int Account::counter = 0;
+
 Account::Account(double balance) {
     this->balance = balance;
-    this->id = counter+1;
+    this->id = counter;
+    counter++;
 }
 
 void Account::deposit(double amount){
@@ -30,4 +33,12 @@ double Account::getBalance() const {
     return this->balance;
 }
 
+void Account::print(ostream &os) const {
+    os << this->id << "\t" << this->balance << endl;
+}
+
+ostream& operator << (ostream& os, const Account& a){
+    a.print(os);
+    return os;
+}
 
