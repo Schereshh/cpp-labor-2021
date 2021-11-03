@@ -286,6 +286,12 @@ lab6_BINARY_DIR:STATIC=C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-
 //Value Computed by CMake
 lab6_SOURCE_DIR:STATIC=C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab06
 
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/cmake-build-debug/lab07
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab07
+
 
 ########################
 # INTERNAL cache entries
@@ -399,7 +405,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

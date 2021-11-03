@@ -88,5 +88,12 @@ void testIsSquare(const char * filename)
 //7. feladat
 Point * createArray(int numPoints)
 {
-
+    random_device rd; // obtain a random number from hardware
+    mt19937 gen(rd()); // seed the generator
+    uniform_int_distribution<> distr(0, 2000);
+    for(int i=0;i<numPoints;i++){
+        int a, b;
+        a = distr(gen);
+        b = distr(gen);
+    }
 }

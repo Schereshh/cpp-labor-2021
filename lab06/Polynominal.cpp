@@ -12,6 +12,10 @@ Polynomial::Polynomial(int degree, const double *coefficients){
     }
 }
 
+Polynomial::~Polynomial() {
+    delete [ ] coefficients;
+}
+
 ostream &operator<<(ostream &out, const Polynomial &what) {
     for(int i=0; i<what.capacity;i++){
         out << what.coefficients[i] << " ";
@@ -27,9 +31,6 @@ Polynomial::Polynomial(Polynomial &&that) {
 
 }
 
-Polynomial::~Polynomial() {
-
-}
 
 int Polynomial::degree() const {
     return 0;
