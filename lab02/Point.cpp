@@ -88,12 +88,29 @@ void testIsSquare(const char * filename)
 //7. feladat
 Point * createArray(int numPoints)
 {
-    random_device rd; // obtain a random number from hardware
-    mt19937 gen(rd()); // seed the generator
-    uniform_int_distribution<> distr(0, 2000);
+    Point* array = new Point[numPoints];
+
+    for(int i=0; i<numPoints; i++){
+        array[i] = Point(rand() % 2001, rand() % 2001);
+    }
+
+    return array;
+}
+
+//8. feladat
+void printArray(Point * points, int numPoints)
+{
+    for(int i=0; i<numPoints;i++){
+        points[i].print();
+        cout << endl;
+    }
+}
+
+//9. feladat
+pair<Point,Point> closestPoints(Point * points, int numPoints)
+{
+    double distances[numPoints];
     for(int i=0;i<numPoints;i++){
-        int a, b;
-        a = distr(gen);
-        b = distr(gen);
+        distances[i] = distance(points[i])
     }
 }

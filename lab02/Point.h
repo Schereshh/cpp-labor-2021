@@ -38,3 +38,9 @@ void testIsSquare(const char * filename);
 
 //7. feladat
 Point * createArray(int numPoints);
+
+//8. feladat
+void printArray(Point * points, int numPoints);
+
+//9. feladat
+pair<Point, Point> closestPoints(Point * points, int numPoints);

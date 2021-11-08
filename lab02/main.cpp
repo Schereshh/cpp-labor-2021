@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Point.h"
 #include <iomanip>
+#include <time.h>
 
 using namespace std;
 
@@ -25,5 +26,17 @@ int main()
 
     //6. feladat
     testIsSquare("points.txt");
+    cout << endl;
+
+    //7. feladat
+    srand(time(NULL));
+    int n = 5;
+    Point * points = createArray(n);
+
+    //8. feladat
+    printArray(points, n);
+
+
+
     return 0;
 }
