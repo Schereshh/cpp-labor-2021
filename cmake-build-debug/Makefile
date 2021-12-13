@@ -220,6 +220,19 @@ lab7/fast:
 	$(MAKE) $(MAKESILENT) -f lab07\CMakeFiles\lab7.dir\build.make lab07/CMakeFiles/lab7.dir/build
 .PHONY : lab7/fast
 
+#=============================================================================
+# Target rules for targets named lab10
+
+# Build rule for target.
+lab10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab10
+.PHONY : lab10
+
+# fast build rule for target.
+lab10/fast:
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make lab10/CMakeFiles/lab10.dir/build
+.PHONY : lab10/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -229,6 +242,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab1
+	@echo ... lab10
 	@echo ... lab2
 	@echo ... lab3
 	@echo ... lab4

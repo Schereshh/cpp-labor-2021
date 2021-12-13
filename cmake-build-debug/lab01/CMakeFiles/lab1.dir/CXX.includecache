@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/functions.h
+iostream
+-
+cmath
+-
+array
+-
+utility
+-
+string
+-
+sstream
+-
+
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/main.cpp
+iostream
+-
+functions.h
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab01/functions.h
+string
+-
+

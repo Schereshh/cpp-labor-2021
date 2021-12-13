@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab06/Polynominal.h
+iostream
+-
+
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab06/main.cpp
+iostream
+-
+Polynominal.h
+C:/Things/Uni/II-ev/I-felev/FejlettProgramozas/cpp-labor-2021/lab06/Polynominal.h
+
