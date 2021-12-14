@@ -79,6 +79,7 @@ all: lab04/all
 all: lab05/all
 all: lab06/all
 all: lab07/all
+all: lab08/all
 all: lab10/all
 
 .PHONY : all
@@ -91,6 +92,7 @@ preinstall: lab04/preinstall
 preinstall: lab05/preinstall
 preinstall: lab06/preinstall
 preinstall: lab07/preinstall
+preinstall: lab08/preinstall
 preinstall: lab10/preinstall
 
 .PHONY : preinstall
@@ -103,6 +105,7 @@ clean: lab04/clean
 clean: lab05/clean
 clean: lab06/clean
 clean: lab07/clean
+clean: lab08/clean
 clean: lab10/clean
 
 .PHONY : clean
@@ -232,6 +235,24 @@ lab07/preinstall:
 lab07/clean: lab07/CMakeFiles/lab7.dir/clean
 
 .PHONY : lab07/clean
+
+#=============================================================================
+# Directory level rules for directory lab08
+
+# Recursive "all" directory target.
+lab08/all: lab08/CMakeFiles/lab8.dir/all
+
+.PHONY : lab08/all
+
+# Recursive "preinstall" directory target.
+lab08/preinstall:
+
+.PHONY : lab08/preinstall
+
+# Recursive "clean" directory target.
+lab08/clean: lab08/CMakeFiles/lab8.dir/clean
+
+.PHONY : lab08/clean
 
 #=============================================================================
 # Directory level rules for directory lab10
@@ -439,6 +460,33 @@ lab7: lab07/CMakeFiles/lab7.dir/rule
 lab07/CMakeFiles/lab7.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lab07\CMakeFiles\lab7.dir\build.make lab07/CMakeFiles/lab7.dir/clean
 .PHONY : lab07/CMakeFiles/lab7.dir/clean
+
+#=============================================================================
+# Target rules for target lab08/CMakeFiles/lab8.dir
+
+# All Build rule for target.
+lab08/CMakeFiles/lab8.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab08\CMakeFiles\lab8.dir\build.make lab08/CMakeFiles/lab8.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab08\CMakeFiles\lab8.dir\build.make lab08/CMakeFiles/lab8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target lab8"
+.PHONY : lab08/CMakeFiles/lab8.dir/all
+
+# Build rule for subdir invocation for target.
+lab08/CMakeFiles/lab8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab08/CMakeFiles/lab8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Things\Uni\II-ev\I-felev\FejlettProgramozas\cpp-labor-2021\cmake-build-debug\CMakeFiles 0
+.PHONY : lab08/CMakeFiles/lab8.dir/rule
+
+# Convenience name for target.
+lab8: lab08/CMakeFiles/lab8.dir/rule
+
+.PHONY : lab8
+
+# clean rule for target.
+lab08/CMakeFiles/lab8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab08\CMakeFiles\lab8.dir\build.make lab08/CMakeFiles/lab8.dir/clean
+.PHONY : lab08/CMakeFiles/lab8.dir/clean
 
 #=============================================================================
 # Target rules for target lab10/CMakeFiles/lab10.dir

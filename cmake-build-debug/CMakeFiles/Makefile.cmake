@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lab05/CMakeLists.txt"
   "../lab06/CMakeLists.txt"
   "../lab07/CMakeLists.txt"
+  "../lab08/CMakeLists.txt"
   "../lab10/CMakeLists.txt"
   )
 
@@ -64,6 +65,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab05/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab06/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab07/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab08/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab10/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -76,5 +78,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab05/CMakeFiles/lab5.dir/DependInfo.cmake"
   "lab06/CMakeFiles/lab6.dir/DependInfo.cmake"
   "lab07/CMakeFiles/lab7.dir/DependInfo.cmake"
+  "lab08/CMakeFiles/lab8.dir/DependInfo.cmake"
   "lab10/CMakeFiles/lab10.dir/DependInfo.cmake"
   )

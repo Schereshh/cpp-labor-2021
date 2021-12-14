@@ -221,6 +221,19 @@ lab7/fast:
 .PHONY : lab7/fast
 
 #=============================================================================
+# Target rules for targets named lab8
+
+# Build rule for target.
+lab8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab8
+.PHONY : lab8
+
+# fast build rule for target.
+lab8/fast:
+	$(MAKE) $(MAKESILENT) -f lab08\CMakeFiles\lab8.dir\build.make lab08/CMakeFiles/lab8.dir/build
+.PHONY : lab8/fast
+
+#=============================================================================
 # Target rules for targets named lab10
 
 # Build rule for target.
@@ -249,6 +262,7 @@ help:
 	@echo ... lab5
 	@echo ... lab6
 	@echo ... lab7
+	@echo ... lab8
 .PHONY : help
 
 
