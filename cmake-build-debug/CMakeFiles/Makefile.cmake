@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lab07/CMakeLists.txt"
   "../lab08/CMakeLists.txt"
   "../lab10/CMakeLists.txt"
+  "../lab12/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -67,6 +68,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab07/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab08/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab10/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab12/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -80,4 +82,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab07/CMakeFiles/lab7.dir/DependInfo.cmake"
   "lab08/CMakeFiles/lab8.dir/DependInfo.cmake"
   "lab10/CMakeFiles/lab10.dir/DependInfo.cmake"
+  "lab12/CMakeFiles/lab12.dir/DependInfo.cmake"
   )
